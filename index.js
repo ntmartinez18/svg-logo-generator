@@ -1,10 +1,8 @@
 // included "inquirer" and "jest" packages
-// const inquirer = require('inquirer');
+const inquirer = require('inquirer');
 // const jest = require('jest');
-// const fs = require('fs'); 
-import inquirer from 'inquirer';
-// import jest from 'jest';
-import fs from 'fs';
+const fs = require('fs'); 
+
 
 // created questions array for user to input their design preferences
 const questions = [
