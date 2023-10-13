@@ -1,15 +1,15 @@
 // included "inquirer" and "jest" packages
 const inquirer = require('inquirer');
-// const jest = require('jest');
+const jest = require('jest');
 const fs = require('fs'); 
 
 
 // created questions array for user to input their design preferences
 const questions = [
     {
-      type: 'input',
-      name: 'text',
-      message: 'Enter up to three characters',
+        type: 'input',
+        name: 'text',
+        message: 'Enter up to three characters',
     },
     {
         type: 'input',
@@ -19,7 +19,8 @@ const questions = [
     {
         type: 'list',
         name: 'shape',
-        message: 'Choose from a: circle, triangle, or square',
+        message: 'Select a shape',
+        choices: ['Circle', 'Triangle', 'Square'],
     },
     {
         type: 'input',
