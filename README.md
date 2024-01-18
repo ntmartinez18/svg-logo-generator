@@ -4,7 +4,7 @@
 A command line application to generate a custom svg logo
 
 ## Assets
-video
+https://drive.google.com/file/d/1fm5cjg_eg7gFFfd4YnTD14RYCnpP6ifJ/view
 
 ## Installation
 Install the "inquirer" package and other developer dependencies by running the command "npm install" in the command line
